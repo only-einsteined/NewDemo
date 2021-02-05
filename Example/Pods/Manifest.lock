@@ -1,0 +1,70 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - NewDemo (0.1.2):
+    - NewDemoProtocolManager
+    - NewDemoViewModelProtocol
+    - OldDemoViewModel
+    - OldedDemoViewModel
+  - NewDemoProtocolManager (0.4.7)
+  - NewDemoViewModelProtocol (0.4.7)
+  - OldDemoViewModel (0.4.5):
+    - NewDemoProtocolManager
+    - NewDemoViewModelProtocol
+  - OldedDemoViewModel (1.2.8.4):
+    - NewDemoProtocolManager
+    - NewDemoViewModelProtocol
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - NewDemo (from `../`)
+  - NewDemoProtocolManager (from `/Users/lichenbiao/Desktop/iosdevelopment/NewDemoProtocolManager`)
+  - NewDemoViewModelProtocol (from `/Users/lichenbiao/Desktop/iosdevelopment/NewDemoViewModelProtocol`)
+  - OldDemoViewModel (from `/Users/lichenbiao/Desktop/iosdevelopment/OldDemoViewModel`)
+  - OldedDemoViewModel (from `/Users/lichenbiao/Desktop/iosdevelopment/OldedDemoViewModel`)
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Specta
+
+EXTERNAL SOURCES:
+  NewDemo:
+    :path: "../"
+  NewDemoProtocolManager:
+    :path: "/Users/lichenbiao/Desktop/iosdevelopment/NewDemoProtocolManager"
+  NewDemoViewModelProtocol:
+    :path: "/Users/lichenbiao/Desktop/iosdevelopment/NewDemoViewModelProtocol"
+  OldDemoViewModel:
+    :path: "/Users/lichenbiao/Desktop/iosdevelopment/OldDemoViewModel"
+  OldedDemoViewModel:
+    :path: "/Users/lichenbiao/Desktop/iosdevelopment/OldedDemoViewModel"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  NewDemo: 3c8e2616a7045083c8f6732b03f1d80ffa9de570
+  NewDemoProtocolManager: cdc861c0f441e70d8e6e8d02ef2cb12b0ab62a98
+  NewDemoViewModelProtocol: 26da279fb664e513bed9a95320e22b1d6097c6d4
+  OldDemoViewModel: 2abedbbce838ad1894afdd3aa7c924eafdf1dc42
+  OldedDemoViewModel: 98be28afa1ef1a1a49e2e4a33455b66a4bc9e8cd
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: a6d86219143eda536290264150ea339732fa8c51
+
+COCOAPODS: 1.10.1

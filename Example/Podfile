@@ -1,0 +1,22 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NewDemo_Example' do
+  pod 'NewDemo', :path => '../'
+  pod 'OldedDemoViewModel'
+  pod 'OldDemoViewModel'
+  pod 'NewDemoProtocolManager'
+  pod 'NewDemoViewModelProtocol'
+
+
+  target 'NewDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+    
+  end
+end

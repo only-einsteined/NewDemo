@@ -1,0 +1,6 @@
+framework module OldDemoViewModel {
+  umbrella header "OldDemoViewModel-umbrella.h"
+
+  export *
+  module * { export * }
+}
