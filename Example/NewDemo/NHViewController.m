@@ -8,7 +8,6 @@
 
 
 #import "NHViewController.h"
-#import <NHDemoViewController.h>
 
 @interface NHViewController ()
 
@@ -28,8 +27,8 @@
 }
 
 - (void)showAction {
-    NHDemoViewController *demoViewController = [[NHDemoViewController alloc] init];
-    [self.navigationController pushViewController:demoViewController animated:YES];
+    Class NHDemoViewController = NSClassFromString(@"NHDemoViewController");
+    [self.navigationController pushViewController:[[NHDemoViewController alloc] init] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
