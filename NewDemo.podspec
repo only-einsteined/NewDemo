@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NewDemo'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of NewDemo.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'NewDemo/Code/**/*'
+  s.source_files = 'NewDemo/Code/*{h,m}'
   
   s.dependency 'OldedDemoViewModel'
   s.dependency 'OldDemoViewModel'
